@@ -29,7 +29,7 @@
  * @param length
  * @return NULL
  */
-void print_statistics(unsigned char arr[],unsigned int len);
+void print_statistics();
 /**
  * @brief This function prints all the array element
  *
@@ -37,7 +37,7 @@ void print_statistics(unsigned char arr[],unsigned int len);
  * @param length
  * @return NULL
  */
-void print_array(unsigned char arr[],int len);
+void print_array(unsigned char * arr,unsigned int len);
 
 /**
  * @brief This function finds the median of the array
@@ -46,7 +46,7 @@ void print_array(unsigned char arr[],int len);
  * @param length
  * @return Median value of array
  */
-unsigned char find_median(unsigned char arr[],int len);
+int find_median(unsigned char * arr,unsigned int len);
 
 /**
  * @brief This function finds the mean of the array
@@ -55,7 +55,7 @@ unsigned char find_median(unsigned char arr[],int len);
  * @param length
  * @return Mean value of array
  */
-unsigned char find_mean(unsigned char arr[],int len);
+int find_mean(unsigned char * arr,unsigned int len);
 /**
  * @brief This function sorts and prints the array
  *
@@ -63,7 +63,7 @@ unsigned char find_mean(unsigned char arr[],int len);
  * @param length
  * @NULL
  */
-void sort_array(unsigned char arr[],int len);
+void sort_array(unsigned char * arr,unsigned int len);
 
 /**
  * @brief This function finds the maximum value of the array
@@ -72,15 +72,15 @@ void sort_array(unsigned char arr[],int len);
  * @param length
  * @return Max value of array
  */
-unsigned char find_max(unsigned char arr[],int len);
-/**
+int find_maximum(unsigned char * arr,unsigned int len);
+/**n
  * @brief This function finds the Minimum value of the array
  *
  * @param the array of numbers
  * @param length
  * @return Min value of array
  */
-unsigned char find_min(unsigned char arr[],int len);
+int find_minimum(unsigned char * arr,unsigned int len);
 
 
 
